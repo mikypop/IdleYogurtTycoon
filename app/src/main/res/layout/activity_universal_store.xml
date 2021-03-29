@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_universal_store">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20sp">
+
+            <TextView
+                android:id="@+id/text_universal_store_amount1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text_universal_store_amount2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text_universal_store_amount3"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="10sp">
+
+            <TextView
+                android:id="@+id/text_universal_store_10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Increase per click of all yogurts by 1"/>
+
+            <TextView
+                android:id="@+id/text_universal_store_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center_horizontal"
+                android:text="Currently:\n+0" />
+
+            <Button
+                android:id="@+id/btn_universal_store_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="10sp">
+
+            <TextView
+                android:id="@+id/text_universal_store_20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Increase idle gain of all yogurts by 1"/>
+
+            <TextView
+                android:id="@+id/text_universal_store_21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center_horizontal"
+                android:text="Currently:\n+0" />
+
+            <Button
+                android:id="@+id/btn_universal_store_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="10sp">
+
+            <TextView
+                android:id="@+id/text_universal_store_30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Increase progress bar increase chance by 0.5%"/>
+
+            <TextView
+                android:id="@+id/text_universal_store_31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center_horizontal"
+                android:text="Currently:\n100%" />
+
+            <Button
+                android:id="@+id/btn_universal_store_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="Button" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
